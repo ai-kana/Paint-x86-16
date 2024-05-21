@@ -33,7 +33,6 @@ type_routine:
     mov al, BYTE [color]
 
     xor cx, cx
-    xor cx, cx
 
     jmp .draw_color_icon
 
